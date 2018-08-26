@@ -1,11 +1,11 @@
-window.onload = function(){document.getElementById("mobileMenujs").onclick = function() {
-  open()
-};
+function mobiopenclose(){document.getElementById("mobileMenujs").onclick = function() {
+   if (document.getElementsByClassName('mobile_nav')[0].style.display=="none") {
+   document.getElementsByClassName('mobile_nav')[0].style.display="block";}
+   else {document.getElementsByClassName('mobile_nav')[0].style.display="none";}
+}
+}
 
-function open() {
-  document.getElementsByClassName('mobile_nav')[0].style.display='block';
-   }
-};
+ 
 /*
 window.onload = function(){document.getElementById('mobileMenujs').onmouseover=function(event) {
     var target = event.target; // где был клик?
@@ -32,3 +32,11 @@ function closeMenu(){
     }
 }
 };*/
+
+
+/*function mobiopenclose(){document.getElementById("mobileMenujs").onclick = function() {
+   if (document.getElementsByClassName('mobile_nav')[0].style.display=="none") {
+   document.getElementsByClassName('mobile_nav')[0].style.display="block";}
+   else {document.getElementsByClassName('mobile_nav')[0].style.display="none";}
+}
+}*/

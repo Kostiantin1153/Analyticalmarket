@@ -35,12 +35,12 @@
 	margin: 0;
 	font-size: 1.2em;
 }
-.AgriProfitTaken {
+.AgriProfitTaking {
 	text-align:center; 
 	margin: 0; 
 	padding: 0;
 }
-.AgriProfitTaken p {
+.AgriProfitTaking p {
 	color:#FF9803; 
 	margin: 0;
 	font-family: 'Raleway', sans-serif;  
@@ -162,7 +162,7 @@
 .mobile_nav {
 		display: none;	
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
 	.news1.news_mobi {
 		width: inherit; 
 	margin: 2% auto;
@@ -196,7 +196,7 @@
 		color:#FF9803;
 		display: none;
 	}
-	 	
+
 	 .mobile_nav li a p {
 	  	color:#FF9803; 
 	    margin: 0;
