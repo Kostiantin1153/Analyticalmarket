@@ -218,7 +218,7 @@
 
 }
 .submenu {
-	display: block; /*скрываем все пункты меню*/
+	display: none; /*скрываем все пункты меню*/
     position: absolute;
     cursor: pointer;
     margin: 0;
@@ -245,4 +245,8 @@
     text-decoration: underline;
 	color: #FF9803;
 }
+.menusabm:hover .submenu {
+	display: block;
+}
+
 
